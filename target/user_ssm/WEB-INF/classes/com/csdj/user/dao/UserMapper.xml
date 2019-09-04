@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.csdj.user.dao.UserMapper">
+	<select id="countUser" parameterType="User" resultType="int">
+		select count(1) from smbms_user
+			where userCode=#{userCode} and userPassword=#{userPassword};
+	</select>
+
+</mapper>

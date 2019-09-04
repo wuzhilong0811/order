@@ -1,0 +1,6 @@
+com\csdj\user\dao\UserMapper.class
+com\csdj\user\controller\FileController.class
+com\csdj\user\controller\UserController.class
+com\csdj\user\pojo\User.class
+com\csdj\user\service\UserService.class
+com\csdj\user\service\impl\UserServiceImpl.class
